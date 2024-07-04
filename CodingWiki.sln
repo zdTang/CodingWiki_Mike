@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingWiki_Web", "CodingWiki_Web\CodingWiki_Web.csproj", "{ED64925A-657D-4007-9817-F86C59FE3E3B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodingWiki_Web", "CodingWiki_Web\CodingWiki_Web.csproj", "{ED64925A-657D-4007-9817-F86C59FE3E3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingWiki_DataAccess", "CodingWiki_DataAccess\CodingWiki_DataAccess.csproj", "{696A0AD1-31E0-453B-91CE-056A22359904}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingWiki_Model", "CodingWiki_Model\CodingWiki_Model.csproj", "{8A2322CB-5559-4B4B-AEDD-BD266D4D6001}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{ED64925A-657D-4007-9817-F86C59FE3E3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED64925A-657D-4007-9817-F86C59FE3E3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED64925A-657D-4007-9817-F86C59FE3E3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{696A0AD1-31E0-453B-91CE-056A22359904}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{696A0AD1-31E0-453B-91CE-056A22359904}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{696A0AD1-31E0-453B-91CE-056A22359904}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{696A0AD1-31E0-453B-91CE-056A22359904}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A2322CB-5559-4B4B-AEDD-BD266D4D6001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A2322CB-5559-4B4B-AEDD-BD266D4D6001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A2322CB-5559-4B4B-AEDD-BD266D4D6001}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A2322CB-5559-4B4B-AEDD-BD266D4D6001}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
